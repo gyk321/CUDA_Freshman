@@ -1,3 +1,13 @@
+## 编译大多数示例
+```bash
+cd ~/CUDA_Freshman
+
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j"$(nproc)"
+```
+
+
+
 
 ## 联系我
 ![](./IMG_9066.JPG)
