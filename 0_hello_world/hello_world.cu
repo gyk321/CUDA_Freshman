@@ -3,6 +3,7 @@ __global__ void hello_world(void)
 {
   printf("GPU: Hello world!\n");
 }
+
 int main(int argc,char **argv)
 {
   printf("CPU: Hello world!\n");

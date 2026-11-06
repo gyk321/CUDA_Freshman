@@ -1,10 +1,12 @@
 ## 编译大多数示例
+可执行文件位于 build/章节名/
 ```bash
 cd ~/CUDA_Freshman
 
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j"$(nproc)"
 ```
+
 
 
 
